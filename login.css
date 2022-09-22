@@ -49,4 +49,18 @@ form button{
     color:white;
     border: none;
     font-size: 25px;
+    transition: box-shadow 1s;
+}
+form button:hover{
+    box-shadow:0 0 20px rgb(57, 82, 182);
+}
+nav{
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 27px;
 }
