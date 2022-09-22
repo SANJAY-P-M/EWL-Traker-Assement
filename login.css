@@ -19,3 +19,34 @@ main{
     background-size: cover;
     background-color:rgb(0, 0, 0);
 }
+.container{
+    background-color: rgba(0, 0, 0, 0.663);
+    height: 100vh;
+}
+main form{
+    top: 28%;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    border-radius: 15px;
+    position: relative;
+    left: 35%;
+    height: 300px;
+}
+main form h1{
+    color: rgb(24, 24, 93);
+    margin:0 66px;
+    margin: 10px 29%
+}
+form input,form button{
+    margin: 18px 25%;
+    height: 43px;
+    width: 255px;
+    border-radius: 15px;
+    border: 2px solid #8080806b;
+}
+form button{
+    background-color: rgb(55, 87, 215);
+    color:white;
+    border: none;
+    font-size: 25px;
+}
