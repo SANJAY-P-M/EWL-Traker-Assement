@@ -30,7 +30,7 @@ main form{
     border-radius: 15px;
     position: relative;
     left: 35%;
-    height: 300px;
+    height: fit-content;
 }
 main form h1{
     color: rgb(24, 24, 93);
@@ -63,4 +63,9 @@ nav ul {
 }
 nav ul li {
     margin-right: 27px;
+}
+p#notice {
+    color: red;
+    font-weight: bolder;
+    text-align: center;
 }
